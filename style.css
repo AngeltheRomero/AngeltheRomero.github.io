@@ -3,12 +3,22 @@ body {
     background-color: #FFC6FF;
     font-family: 'Courier New', Courier, monospace;
 }
+
 h1 {
     text-align: center;
 }
+
 h2 {
-    text-align: ;
+    text-align: center;
+    font-size: larger;
 }
+
 p {
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+summary {
     text-align: center;
 }
