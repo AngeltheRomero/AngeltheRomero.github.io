@@ -19,16 +19,6 @@ p {
 
 }
 
-summary {
-    text-align: center;
-}
-
-body {
-    text-align: center;
-    background-color: #FFC6FF;
-    font-family: 'Courier New', Courier, monospace;
-}
-
 h1 {
     font-size: x-large;
 }
@@ -40,3 +30,13 @@ h3 {
 img {
     align-items: center;
 }
+
+summary {
+    text-align: center;
+    font-size: x-large;
+}
+
+ summary {
+        text-align: center;
+    font-size: x-large;
+    }
