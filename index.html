@@ -5,13 +5,14 @@
     <title>It's my new website!</title>
     <h1>Hi! Guess what? This is my new website!</h1>
     <p><b>Now, this is an improved version of all previous websites!</b></p>
+    <marquee behavior="scroll" direction="right" scrollamount="8"><p><b>ISN'T THIS SO AWESOME!?!?!</b></p></marquee>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <nav>
         <details>
             <summary><b>Navigation Bar, Look and Explore!</b></summary>
-            <li><b><a href="index.html">HOME</a></b></li>
+            <li onclick="alert('Your Already Here Silly!')"><b><a href="index.html">HOME</a></b></li>
             <li><b><a href="about.html">It's All About Me</a></b></li>
             <li><b><a href="More About Me.html">Part 2 of About Me!!!</a></b></li>
             <li><b><a href="GetToSchool7/index.html">LET'S PLAY A GAME!!!!!</a></b></li>
@@ -38,9 +39,9 @@ function myFunction() {
 }
 </script>
 
-    <marquee behavior="scroll" scrollamount="10" direction="right">
-        <img src="RM.gif" alt="This is a RM gif going right" width=200;>
-    </marquee>
+    <a href="https://mario.nintendo.com/"><marquee behavior="scroll" scrollamount="15" direction="right">
+        <img src="RM.gif" alt="This is a RM gif going right" width=200;><a href="https://mario.nintendo.com/">
+    </marquee></a>
     <marquee behavior="scroll" scrollamount="999" direction="right">
         <img src="CAPE MARIO.gif" alt="Cape Mario!" width=190;>
     </marquee>
@@ -50,7 +51,7 @@ function myFunction() {
     <marquee behavior="scroll" scrollamount="999" direction="right">
         <img src="SR.gif" alt="SONIC RUN" ; width="110">
     </marquee>
-    <marquee behavior="scroll" scrollamount="8" direction="right">
+    <marquee behavior="scroll" scrollamount="500" direction="right">
         <img src="KNUCKLES.gif" alt="THE KNUCKS" ; width="115">
     </marquee>
     <marquee behavior="scroll" scrollamount="8" direction="right">
@@ -65,8 +66,14 @@ function myFunction() {
     <marquee behavior="scroll" direction="right">
         <img src="" alt="" width=190;>
     </marquee>
-    <marquee behavior="scroll" direction="right">
+    <marquee behavior="scroll" scrollamount="11" direction="right">
         <img src="MONOKUMA WALK.gif" alt="MKW" ; width="100">
+    </marquee>
+    <marquee behavior="scroll" scrollamount="13" direction="right">
+        <img src="BEARwalking.webp" alt="Give the Cheese!" ; width="160">
+    </marquee>
+    <marquee behavior="scroll" scrollamount="13" direction="right">
+        <img src="SamWalk.webp" alt="NEVER OUT CHEESE ON THE GARLIC BREAD!" ; width="150">
     </marquee>
 </body>
 
@@ -78,7 +85,7 @@ function myFunction() {
     }
 
     .dark-mode {
-   background-color: #bb36bb;
+   background-color: #570857;
 }
 
     p {
@@ -104,6 +111,14 @@ function myFunction() {
 
     li {
         font-size: large;
+    }
+
+    button {
+        cursor: default;
+       border-color: blue;
+       padding: 10px;
+       margin: 15px;
+
     }
 </style>
 
