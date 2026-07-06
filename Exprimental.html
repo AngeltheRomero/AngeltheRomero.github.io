@@ -14,7 +14,10 @@
   <img src="That Guy Construction (By Angel Romero) .png" width="300">
   <div class="container">
     <div>This is a test block :3</div>
-  </div>
+
+<audio id="my-audio" src="PoliwhirlCry.mp3" preload="auto"></audio>
+<img src="POLIWHIRL.png" alt="Play Sound" onclick="Playsound()" class="clickable-image">
+
 </body>
 <style>
   .container {
@@ -29,5 +32,14 @@
     width: 100px;
   }
 </style>
+<script>
+  function Playsound() {
+    const audio = document.getElementById("my-audio");
+
+    audio.currentTime = 0
+
+    audio.play();
+  }
+</script>
 
 </html>

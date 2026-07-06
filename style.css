@@ -44,3 +44,11 @@ summary {
 .dark-mode {
         background-color: #570857;
     }
+
+    button {
+        cursor: default;
+        border-color: blue;
+        padding: 10px;
+        margin: 15px;
+
+    }
