@@ -40,3 +40,7 @@ summary {
     text-align: center;
     font-size: x-large;
 }
+
+.dark-mode {
+        background-color: #570857;
+    }
