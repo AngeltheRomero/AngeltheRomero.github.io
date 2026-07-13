@@ -91,7 +91,7 @@
     <img src="Sentret.png" alt="Play Sound" onclick="Playsound18()" class="clickable-image">
 
     <ol><b>Hisuian Sneasel: I like the mischievous look it has</b></ol>
-    <audio id="SneaselCry" src="Sneasel.png" preload="auto"></audio>
+    <audio id="SneaselCry" src="SneaselCry.mp3" preload="auto"></audio>
     <img src="Sneasel.png" alt="Play Sound" onclick="Playsound36()" class="clickable-image">
 
     <ol><b>Quagsire: I like it.</b></ol>
@@ -139,7 +139,7 @@
 
     <ol><b>Salamence: At this point I just like all psuedos</b></ol>
     <audio id="SalamenceCry" src="SalamenceCry.mp3" preload="auto"></audio>
-    <img src="Salamence.png" alt="Play Sound" onclick="Playsound()" class="clickable-image">
+    <img src="Salamence.png" alt="Play Sound" onclick="Playsound41()" class="clickable-image">
 
     <ol><b>Solgaleo: I love this legendary's cry and design so much!</b></ol>
     <audio id="SolgaleoCry" src="SolgaloCry.mp3" preload="auto"></audio>
@@ -174,7 +174,7 @@
     <img src="Regigigas.png" alt="Play Sound" onclick="Playsound37()" class="clickable-image">
 
     <ol><b>Zygarde 50%: It design is cool and the XY series was pretty cool witht the megas</b></ol>
-    <audio id="Zygarde50%" src="50%ZygardeCry.mp3" preload="auto"></audio>
+    <audio id="Zygarde50%Cry" src="50%ZygardeCry.mp3" preload="auto"></audio>
     <img src="Zygarde.png" alt="Play Sound" onclick="Playsound38()" class="clickable-image">
 
 
@@ -472,6 +472,29 @@
         audio.play();
     }
 
+    function Playsound39() {
+        const audio = document.getElementById("LedybaCry");
+
+        audio.currentTime = 0
+
+        audio.play();
+    }
+
+    function Playsound40() {
+        const audio = document.getElementById("UmbreonCry");
+
+        audio.currentTime = 0
+
+        audio.play();
+    }
+
+function Playsound41() {
+        const audio = document.getElementById("SalamenceCry");
+
+        audio.currentTime = 0
+
+        audio.play();
+    }
 
 
     function Playsound() {
