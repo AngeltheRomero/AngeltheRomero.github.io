@@ -12,34 +12,46 @@
 <body>
   <h1>Experimental Stage</h1>
   <img src="That Guy Construction (By Angel Romero) .png" width="300">
-  <div class="container">
-    <div>This is a test block :3</div>
 
-<audio id="my-audio" src="PoliwhirlCry.mp3" preload="auto"></audio>
-<img src="POLIWHIRL.png" alt="Play Sound" onclick="Playsound()" class="clickable-image">
-
+    <div class="container1" id="box1" class="box">Box 1: I WANNA BE NEXT TO BOX 2!</div>
+    <div class="container2" id="box2" class="box">Box 2</div>
+    <div class="container3" id="box3" class="box">Box 3</div>
+    <div class="container4" id="box4" class="box">Box 4: I wanna be alone...</div>
+  </div>
+<header>
+<img src="ME AND TWIN.gif" width="550">
+</header>
 </body>
 <style>
-  .container {
-    display: flex;
-    background-color: DodgerBlue;
+  .container1 {
+    background-color: aqua;
+    padding: 20px;
+    margin: 30px;
+    border: darkblue;
   }
 
-  .container div {
-    background-color: #b90d9d;
-    margin: 10px;
-    padding: 10px;
-    width: 100px;
+  .container2 {
+    background-color: darkorchid;
+    padding: 20px;
+    margin: 30px;
+    
+  }
+
+  .container3 {
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 30px;
+  }
+
+  .container4 {
+    background-color: darkblue;
+    padding: 20px;
+    margin: 30px;
+  }
+
+  .header {
+  align-content: center;
   }
 </style>
-<script>
-  function Playsound() {
-    const audio = document.getElementById("my-audio");
-
-    audio.currentTime = 0
-
-    audio.play();
-  }
-</script>
 
 </html>
