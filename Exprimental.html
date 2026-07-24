@@ -22,16 +22,50 @@
     <img src="ME AND TWIN.gif" width="550">
   </header>
 
+  <audio controls>
+    <source src="September - Earth, Wind & Fire.mp3" type="audio/ogg">
+    <source src="September - Earth, Wind & Fire.mp3">
+  </audio>
 
 
 
 
 
 
-<audio controls>
-  <source src="September - Earth, Wind & Fire.mp3" type="audio/ogg">
-  <source src="September - Earth, Wind & Fire.mp3">
-</audio>
+
+
+  <!-- Audio element -->
+  <audio id="myAudio" src="September - Earth, Wind & Fire.mp3"></audio>
+
+  <!-- Play and Pause buttons -->
+  <p><b>September Earth, Wind & Fire</b></p>
+  <img src="Earth, Wind & Fire Album Cover.png" width="300">
+  <button onclick="playAudio()">Play</button>
+  <button onclick="pauseAudio()">Pause</button>
+
+  <script>
+    // Get the audio element
+    const audio = document.getElementById("myAudio");
+
+    // Function to play audio
+    function playAudio() {
+      try {
+        audio.play();
+      } catch (err) {
+        console.error("Error playing audio:", err);
+      }
+    }
+
+    // Function to pause audio
+    function pauseAudio() {
+      try {
+        audio.pause();
+      } catch (err) {
+        console.error("Error pausing audio:", err);
+      }
+    }
+  </script>
+
 
   <button onclick="toggleAudio()">Play/Pause</button>
 
